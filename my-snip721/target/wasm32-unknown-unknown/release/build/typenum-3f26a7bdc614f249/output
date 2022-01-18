@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/higazy/Documents/secretNFT/my-snip721/target/wasm32-unknown-unknown/release/build/typenum-3f26a7bdc614f249/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/higazy/Documents/secretNFT/my-snip721/target/wasm32-unknown-unknown/release/build/typenum-3f26a7bdc614f249/out/op.rs
