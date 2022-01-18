@@ -19,15 +19,15 @@ const {
   
     // Get the wallet address
     const accAddress = pubkeyToAddress(pubkey, 'secret');
-  
+
     // Query the account
-    // const client = new CosmWasmClient(process.env.VITE_SECRET_REST_URL);
-    // const account = await client.getAccount(accAddress)
-    //   .catch((err) => { throw new Error(`Could not get account: ${err}`); });
+    const client = new CosmWasmClient(process.env.VITE_SECRET_REST_URL);
+    const account = await client.getAccount(accAddress)
+      .catch((err) => { throw new Error(`Could not get account: ${err}`); });
   
     console.log('mnemonic: ', mnemonic);
     console.log('address: ', accAddress);
-    // console.log('account: ', account);
+    console.log('account: ', account);
   };
   
   main().catch((err) => {

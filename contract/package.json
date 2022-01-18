@@ -4,8 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@cosmos-client/core": "^0.44.4",
+    "@cosmos-client/cosmwasm": "^0.20.1",
     "@iov/crypto": "^2.5.0",
     "dotenv": "^10.0.0",
-    "secretjs": "^0.11.0"
+    "secretjs": "^0.17.5"
   }
 }
